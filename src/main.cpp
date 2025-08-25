@@ -10,7 +10,7 @@
 #include <ESP8266WiFi.h>
 
 // RemoteXY connection settings
-#define REMOTEXY_WIFI_SSID "Watercraft_Demo"
+#define REMOTEXY_WIFI_SSID "Watercraft"
 #define REMOTEXY_WIFI_PASSWORD "12345678"
 #define REMOTEXY_SERVER_PORT 6377
 
@@ -21,7 +21,7 @@
 uint8_t RemoteXY_CONF[] = // 53 bytes
     {255, 5, 0, 0, 0, 46, 0, 19, 0, 0, 0, 0, 30, 1, 200, 84, 1, 1, 4, 0,
      4, 28, 0, 13, 84, 48, 202, 26, 4, 161, 0, 13, 84, 48, 188, 26, 5, 65, 12, 72,
-     72, 41, 175, 26, 24, 4, 0, 255, 6, 85, 0, 24, 26};
+     72, 41, 175, 26, 24, 4, 2, 255, 6, 85, 0, 24, 26};
 
 // this structure defines all the variables and events of your control interface
 struct
